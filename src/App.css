@@ -166,7 +166,7 @@ table {
 }
 
 body {
-    background-color: black;
+    background-color: var(--color-secondary-1-4);
     color: whitesmoke;
 }
 
@@ -201,6 +201,7 @@ h5,
 h6 {
     margin-bottom: var(--mar-pad-lg);
     padding: var(--mar-pad-sm);
+    font-weight: bold;
 }
 
 h1 {
@@ -214,6 +215,8 @@ label {
 
 label {
     color: var(--color-primary-4);
+    font-weight: bold;
+    letter-spacing: 0.8px;
 }
 
 input,
