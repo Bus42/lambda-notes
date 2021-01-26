@@ -23,7 +23,7 @@ const Note = (props) => {
 
   return (
     <div className="note">
-      <form onSubmit={null}>
+      <form onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="note-title">{date}</label>
         <input
           name="note-title"
