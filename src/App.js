@@ -3,9 +3,11 @@ import Note from "./components/note";
 
 function App() {
   return (
-    <div className="App">
+    <div id="outer-wrapper">
       <h1>Note Taker</h1>
-      <Note />
+      <div id="App-wrapper">
+        <Note />
+      </div>
     </div>
   );
 }
